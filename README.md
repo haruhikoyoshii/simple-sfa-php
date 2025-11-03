@@ -5,8 +5,8 @@
 
 ## 構成
 
-- **PHP 8.2 + Apache**  
-- **MySQL 8.0**  
+- PHP 8.2 + Apache
+- MySQL 8.0  
 - Docker Compose で一括起動可能
 
 ## 起動手順
@@ -60,13 +60,12 @@ MySQL 接続情報
 MySQL に入る方法
 docker exec -it simple-sfa-php-db-1 bash
 mysql -u user -p sfa
-# パスワード: pass
 
 初期データ
-ID	名前	メールアドレス
-1	山田太郎	taro@example.com
 
-2	鈴木花子	hanako@example.com
+ID:1	名前:山田太郎	メールアドレス:taro@example.com
+
+ID:2	名前:鈴木花子	メールアドレス:hanako@example.com
 
 ## 注意事項
 
